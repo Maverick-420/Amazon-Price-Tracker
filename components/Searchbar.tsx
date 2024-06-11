@@ -37,7 +37,7 @@ const Searchbar = () => {
       // console.log("Router object:", router);
       console.log(id);
       const _id = JSON.parse(JSON.stringify(id));
-      router.push(`/products/${_id}`);
+      router.push(`./products/${_id}`);
     } catch (error) {
       console.log(error);
     } finally {
